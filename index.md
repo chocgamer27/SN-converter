@@ -6,7 +6,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to GitHub Repo](https://github.com/chocgamer27/SN-converter).
 
-<textarea id="myInput" placeholder="Type something..."></textarea>
+<textarea id="myInput" placeholder="```Please Enter your SN```"></textarea>
 
 <button onclick="getText()">Submit</button>
 
