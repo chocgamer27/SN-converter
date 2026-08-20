@@ -15,6 +15,11 @@ layout: default
         white-space: pre-wrap;
         overflow-wrap: break-word;
     }
+    #myInput {
+    resize: none
+    width: 500px;
+    height: 150px;
+}
 </style>
 
 <script>
