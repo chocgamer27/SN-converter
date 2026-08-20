@@ -10,12 +10,12 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 <button onclick="getText()">Submit</button>
 
-<``` id="output"></```>
+<p id="output"></p>
 
 <script>
 function getText() {
     const text = document.getElementById("myInput").value;
-    document.getElementById("output").textContent = text;
+    document.getElementById("output").textContent = "```"+ text +"```";
 }
 </script>
 
