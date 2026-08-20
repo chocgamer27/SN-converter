@@ -18,7 +18,7 @@ layout: default
     #myInput {
     resize: none
     width: 500px;
-    height: 150px;
+    height: 800px;
 }
 </style>
 
