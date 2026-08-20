@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+[Link to GitHub Repo](https://github.com/chocgamer27/SN-converter).
 
 There should be whitespace between paragraphs.
 
