@@ -1,3 +1,4 @@
 theme: jekyll-theme-architect
 title: Scientific Notation Converter
 description: Converts numbers to and from Scientific Notations!
+show_downloads: false
