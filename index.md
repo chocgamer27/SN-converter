@@ -10,7 +10,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 <button onclick="getText()">Submit</button>
 
-<p id="output"></p>
+<code id="output"></code>
 
 <script>
 function getText() {
