@@ -8,18 +8,18 @@ layout: default
 
 <button onclick="getText()">Submit</button>
 
-<code id="output"></code>
+<pre id="output"><code></code></pre>
+
+<style>
+    #output {
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+    }
+</style>
 
 <script>
 function getText() {
     const text = document.getElementById("myInput").value;
     document.getElementById("output").textContent = text;
-    
 }
-
-<style>
-    #output {
-    white-space: pre-wrap;
-    overflow-wrap: break-word;
-    }
-</style>
+</script>
