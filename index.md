@@ -6,6 +6,19 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to GitHub Repo](https://github.com/chocgamer27/SN-converter).
 
+<textarea id="myInput" placeholder="Type something..."></textarea>
+
+<button onclick="getText()">Submit</button>
+
+<``` id="output"></```>
+
+<script>
+function getText() {
+    const text = document.getElementById("myInput").value;
+    document.getElementById("output").textContent = text;
+}
+</script>
+
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
